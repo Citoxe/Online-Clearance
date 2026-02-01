@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D Admin Portal</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+
+    <!--Side Bar Start-->
+<div class="drawer lg:drawer-open">
+  <input id="sidebar-drawer" type="checkbox" class="drawer-toggle" />
+
+  <div class="drawer-side z-40">
+    <label for="sidebar-drawer" class="drawer-overlay"></label>
+    
+    <aside class="group h-full bg-[#1f2937] border-r border-gray-700 transition-all duration-300 ease-in-out w-16 hover:w-64 overflow-hidden flex flex-col">
+      
+      <div class="flex items-center h-16 px-4 border-b border-gray-700 overflow-hidden shrink-0">
+        <div class="bg-blue-600 p-1.5 rounded-lg shrink-0">
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+        </div>
+        <span class="ml-3 text-xl font-bold text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">D Admin Portal</span>
+      </div>
+
+      <ul class="menu p-2 w-full grow gap-1 text-gray-400 overflow-y-auto overflow-x-hidden">
+        
+        <li>
+          <a class="flex items-center px-2 py-3 hover:bg-gray-700 hover:text-white rounded-lg transition-colors">
+            <i class="h-6 w-6 shrink-0" data-lucide="chart-pie" stroke-width="2.75" ></i>  
+            <span class="ml-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap font-medium">Dashboards</span>
+          </a>
+        </li>
+
+        <li>
+          <a class="flex items-center px-2 py-3 hover:bg-gray-700 hover:text-white rounded-lg transition-colors">
+           <i class="h-6 w-6 shrink-0" data-lucide="users" stroke-width="2.75" ></i>  
+            <span class="ml-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap font-medium">Students</span>
+          </a>
+        </li>
+
+        <li>
+          <a class="flex items-center px-2 py-3 hover:bg-gray-700 hover:text-white rounded-lg transition-colors">
+            <i class="h-6 w-6 shrink-0" data-lucide="ClipboardClock" stroke-width="2.75" ></i>  
+            <span class="ml-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap font-medium">Activity Logs</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="p-4 border-t border-gray-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-around">
+        <a class="flex items-center px-2 py-3 hover:bg-gray-700 hover:text-white rounded-lg transition-colors">
+        <i class="h-6 w-6 shrink-0" data-lucide="User" stroke-width="2.75" ></i>
+      </a>
+      <a class="flex items-center px-2 py-3 hover:bg-gray-700 hover:text-white rounded-lg transition-colors">
+        <i class="h-6 w-6 shrink-0" data-lucide="settings" stroke-width="2.75" ></i>
+      </a>
+      </div>
+    </aside>
+  </div>
+  <!--Side Bar End-->
+
+  <!--Main Content Start-->
+   <div class="drawer-content flex flex-col">
+
+    <!--Header Start-->
+    <div class="navbar bg-[#1f2937] border-b border-gray-700 w-full">
+      <div class="flex-none">
+        <label for="sidebar-drawer" class="btn btn-square btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current text-white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </label>
+      </div>
+      <div class="flex-1 px-2 mx-2 text-white font-bold text-xl">Awlright</div>
+    </div>
+  <!--Header End-->
+
+    <main class="p-6 bg-[#111827] min-h-screen text-white">
+
+ <div class="card bg-base-100 w-96 shadow-sm">
+  <figure>
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Card Title</h2>
+    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+ <div class="card bg-base-100 w-96 shadow-sm">
+  <figure>
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Card Title</h2>
+    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+ <div class="card bg-base-100 w-96 shadow-sm">
+  <figure>
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Card Title</h2>
+    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+    </main>
+  </div> 
+</div>
+  <!--Main Content End-->
+
+  <!--Icons-->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>lucide.createIcons();</script>
+
+  </body>
+</html> 
